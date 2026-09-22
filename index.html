@@ -1,30 +1,26 @@
-<html>
+html>
 <head>
-<title> HLO BRO KASE HO </title>
- <meta name="google-site-verification" content="PhrnRTN6gWogbdVJ9GH8ViQ59BW4zbr1ucyVwUQhe2k" />
+<title>My Website</title>
 </head>
+
 <body>
- <a href="https://www.uptodown.com/" target="_blank">
-  Open Uptodown
-</a>
- <h1>🎮 Click Game</h1>
-<p>Button को जितनी बार हो सके क्लिक करो!</p>
+
+<h1>🎮 My Click Game</h1>
+
+<p>Click the button!</p>
 
 <h2>Score: <span id="score">0</span></h2>
 
-<button onclick="addScore()">CLICK ME!</button>
+<button onclick="addScore()">CLICK ME</button>
 
 <script>
-let score = 0;
+var score = 0;
 
 function addScore() {
-    score++;
-    document.getElementById("score").innerText = score;
+    score = score + 1;
+    document.getElementById("score").innerHTML = score;
 }
 </script>
-<h1> DEV </h1>
- <P>987462</P>
-  <P>I AM LEARNING TO CRETE WEBSITE</P>
-<p>hlo thiis is my first website</p>
+
 </body>
 </html>
